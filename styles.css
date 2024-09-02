@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: center; /* Aligns items vertically in the center */
+    flex-wrap: wrap; /* Allows items to wrap onto a new row if they exceed the width */
+    height: 100vh; /* Ensures the holder takes up the full viewport height */
+}
+
+.item {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
